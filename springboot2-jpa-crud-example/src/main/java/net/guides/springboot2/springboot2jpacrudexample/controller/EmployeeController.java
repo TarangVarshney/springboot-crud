@@ -32,6 +32,7 @@ public class EmployeeController {
 
 	@GetMapping("/employees")
 	public List<Employee> getAllEmployees() {
+		System.out.println("/employees called");
 		return employeeRepository.findAll();
 	}
 
