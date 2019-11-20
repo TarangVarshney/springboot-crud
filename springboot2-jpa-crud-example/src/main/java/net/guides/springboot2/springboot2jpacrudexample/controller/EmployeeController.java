@@ -34,6 +34,7 @@ public class EmployeeController {
 	public List<Employee> getAllEmployees() {
 		System.out.println("/employees called");
 		System.out.println("/employees called2");
+		System.out.println("/employees called3");
 		return employeeRepository.findAll();
 	}
 
